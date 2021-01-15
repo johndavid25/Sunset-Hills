@@ -1,61 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sunset Hills | Home</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="stylesheet" href="/css/prism.css">
-  </head>
-  <body>
-
-    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #212121;">
-        <a class="navbar-brand" href="#">Sunset Hills</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/solve.html">Solve</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/code.html">Code</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Source</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="https://github.com/johndavid25/Sunset-Hills" target="_blank">GitHub</a>
-                        <a class="dropdown-item" href="https://johndevportfolio.netlify.app" target="_blank">Portfolio</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sunset Hills</title>
+        <link rel="icon" type="image/x-icon" href="/img/tacoIcon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/css/prism.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="/img/sunsetIcon.png" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Description</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Solve</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Code</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Source</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container" >
+                <div class="masthead-subheading">Traversing Arrays & Comparing Values!</div>
+                <div class="masthead-heading text-uppercase">Sunset Hills</div>
+                <a class="btn btn-dark btn-xl text-uppercase js-scroll-trigger" href="#services">Get Started</a>
+            </div>
+        </header>
+        <!-- Description-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Traversing Arrays & Comparing Values</h2>
+                    <h3 class="section-subheading text-muted">An array of buildings is facing the sun. The heights of each building 
+                        from West to East is given in an integer array. You have to tell which buildings will be able to see the sunset. 
+                        Write a program that prints how many buildings and which buildings will be able to see the <br> Sunset given the Array [3, 2, 4, 7, 6, 9]. <br><br>
+                        This program was made using JavaScript, HTML, CSS, and Bootstrap 4.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-js-square fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">JavaScript</h4>
                     </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                    <div class="col">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-html5 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">HTML</h4>
+                    </div>
+                    <div class="col">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-css3-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">CSS</h4>
+                    </div>
+                    <div class="col">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-bootstrap fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Bootstrap 4</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Solve Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sunset Hills Solution</h2>
+                    <h3 class="section-subheading text-muted">Enter five numbers for each building height. Click "solution" to 
+                        determine which building can watch the sunset.
+                    </h3>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <input type="number" class="form-control" id="building1" placeholder="Buliding Height 1">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" id="building2" placeholder="Buliding Height 2" >
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" id="building3" placeholder="Buliding Height 3">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" id="building4" placeholder="Buliding Height 4">
+                    </div>
+                    <div class="col">
+                        <input type="number" class="form-control" id="building5" placeholder="Buliding Height 5">  
+                    </div>
+                </div>
+                <div class="row text-center mt-4">
+                    <div class="col-4 offset-3">
+                        <button type="button" class="btn btn-dark" id="buildingSolution">Solution</button>
+                    </div>
+                    <div class="col-1">
+                        <button type="button" class="btn btn-danger" id="clear">Clear</button>
+                    </div>
+              </div>
+              <div class="container">
+                <div class="row text-center mt-5">
+                    <div class="col">
+                        <h1>Results</h1>
+                        <p id="output"></p>
+                    </div>
+                </div>
+            </div>
 
-    <div class="">
-        <div class="container">
-            <h1 class="display-3">Sunset Hills</h1>
-            <p class="lead">The Sunset Hills coding challenge is intended to assess a candidate’s ability to work with Arrays.This challenge or a slight variation has been used by technology companies such as Amazon and was also featured on a Geeks for Geeks blog post titled “Amazon Interview Experience | Set 189 (For SDE-1)”</p>
-            <hr class="my-2">
-            <p class="lead">
-                <a class="btn btn-dark btn-lg" href="/solve.html" role="button">Get Started</a>
-            </p>
-        </div>
-    </div>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="/js/custom.js"></script>
-    <script src="/js/prism.js"></script>
-  </body>
+            
+            </div>
+        </section>
+        <!-- Code-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Code</h2>
+                    <h3 class="section-subheading text-muted">Sunset Hills JavaScript</h3>
+                </div>
+<pre class="line-numbers">
+    <code class="language-javascript">
+        document.getElementById("buildingSolution").addEventListener("click", sunset);
+        document.getElementById("clear").addEventListener("click", clear);
+        
+        
+        function sunset() {
+          let building1 = parseInt(document.getElementById("building1").value);
+          let building2 = parseInt(document.getElementById("building2").value);
+          let building3 = parseInt(document.getElementById("building3").value);
+          let building4 = parseInt(document.getElementById("building4").value);
+          let building5 = parseInt(document.getElementById("building5").value);
+        
+          let userArray = new Array();
+          userArray.push(building1);
+          userArray.push(building2);
+          userArray.push(building3);
+          userArray.push(building4);
+          userArray.push(building5);
+        
+          let maxHeight = userArray[0];
+          let ascendingArray = new Array();
+          ascendingArray.push(maxHeight);
+        
+          for (let loop = 1; loop < userArray.length; loop++) {
+            if (userArray[loop] > maxHeight) {
+              maxHeight = userArray[loop];
+              ascendingArray.push(maxHeight);
+            }
+          }
+        
+          document.getElementById("output").innerText = `The buildings that will see the sunset are [${ascendingArray.join(", ")}]`;
+        }
+        
+        
+        
+        function clear() {
+            document.getElementById("building1").value = "";
+            document.getElementById("building2").value = "";
+            document.getElementById("building3").value = "";
+            document.getElementById("building4").value = "";
+            document.getElementById("building5").value = "";
+            document.getElementById("output").innerText = "";
+        }
+    </code>
+</pre>                
+       
+            </div>
+        </section>
+        <!-- Source-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Source</h2>
+                    <h3 class="section-subheading text-muted">Please visit my GitHub and Portfolio</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="https://github.com/johndavid25/Sunset-Hills"target="_blank">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                        <h4 class="my-3">GitHub</h4>
+                    </div>   
+                    <div class="col">
+                        <a href="https://johndevportfolio.netlify.app" target="_blank">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-dark"></i>
+                            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                        <h4 class="my-3">Portfolio</h4>
+                    </div>
+                </div>
+                
+            </div> 
+        </section>
+ 
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">Copyright © John Williams 2021</div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="/js/prism.js"></script>
+    </body>
 </html>
